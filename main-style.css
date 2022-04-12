@@ -1,0 +1,49 @@
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p,
+dd,
+dt,
+dl {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #ffffff;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr repeat(14, minmax(10px, 73px)) 1fr;
+
+  color: #d6d6d6;
+  /*font-family: -apple-system, sans-serif;*/
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.learn-more > a {
+  text-decoration: none;
+  color: #2997f0;
+  font-size: 1.3125rem;
+}
+.learn-more > a:hover {
+  text-decoration: underline;
+}
+.learn-more {
+  margin-top: 20px;
+  color: #2997f0;
+}

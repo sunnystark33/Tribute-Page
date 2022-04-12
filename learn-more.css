@@ -1,0 +1,12 @@
+.learn-more > a {
+  text-decoration: none;
+  color: #2997f0;
+  font-size: 1.3125rem;
+}
+.learn-more > a:hover {
+  text-decoration: underline;
+}
+.learn-more {
+  margin-top: 20px;
+  color: #2997f0;
+}

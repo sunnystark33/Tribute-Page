@@ -1,0 +1,44 @@
+.awards {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(14, minmax(10px, 73px));
+  background: black;
+  color: black;
+  justify-content: center;
+}
+.awards > * {
+  grid-column: 2 / 14;
+  color: white;
+  margin: 7px;
+  font-size: 0.72rem;
+}
+.awards > p {
+  padding-top: 25px;
+  font-weight: bold;
+}
+.awards > ul > li {
+  margin-bottom: 17px;
+}
+.awards > hr {
+  border-top: 1px solid white;
+  margin: 3px;
+}
+
+.awards > footer > p {
+  display: inline-block;
+  margin-right: 7px;
+  padding-right: 10px;
+  white-space: nowrap;
+  margin-bottom: 27px;
+  color: white;
+}
+.first {
+  border-right: 1px solid #d2d2d7;
+}
+.awards > footer > p.last {
+  float: right;
+  text-align: right;
+  margin-right: 0;
+  padding-right: 0;
+  color: white;
+}
