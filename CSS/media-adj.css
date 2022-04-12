@@ -1,0 +1,48 @@
+@media screen and (max-width: 734px) {
+  .about h1 {
+    font-size: 2.4rem;
+  }
+  .about h2 {
+    font-size: 1.2rem;
+  }
+  .about h3 {
+    font-size: 1.2rem;
+  }
+  .about p {
+    font-size: 1rem;
+  }
+
+  .companies h1 {
+    font-size: 2.4rem;
+  }
+  .companies h2 {
+    font-size: 1.2rem;
+  }
+  .companies h3 {
+    font-size: 1rem;
+  }
+
+  .videos {
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .about img {
+    max-width: 190px;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .awards > footer > p.last {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .videos h2 {
+    width: 80%;
+  }
+}
+
+/* obs: Hamburguer Menu for Moblie are on a separated file. menu-mobile.css"

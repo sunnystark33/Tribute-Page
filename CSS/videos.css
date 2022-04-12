@@ -1,0 +1,107 @@
+.videos {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #1d1d1f;
+  margin: 10px;
+  column-gap: 10px;
+  row-gap: 10px;
+  text-align: center;
+  letter-spacing: 0.01rem;
+}
+.videos > * {
+  background: #fafafa;
+}
+.pink-video {
+  background: #f1f1f3;
+}
+.blue-video {
+  background: #8dc5dc;
+  color: #faefe6;
+  font-size: 2rem;
+}
+.videos h2 {
+  width: 65%;
+  overflow: auto;
+  margin: auto;
+  margin-top: 49px;
+
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.videos h3 {
+  width: 65%;
+  overflow: auto;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.video-wrapper {
+  display: grid;
+}
+.video-container-laptop {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin: 10px;
+}
+.video-container-laptop iframe {
+  box-sizing: border-box;
+  background: url(../img/laptop.png) center center no-repeat;
+  background-size: contain;
+  padding: 11.9% 15.5% 14.8%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container-desktop {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+}
+.video-container-desktop iframe {
+  box-sizing: border-box;
+  background: url(../img/monitor.png) center center no-repeat;
+  background-size: contain;
+  padding: 3.4% 10.8% 18.6%; /* 11.9% 15.5% 14.8% */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.videos p {
+  margin-top: 15px;
+}
+.videos a {
+  text-decoration: none;
+  color: #0071e3;
+  font-size: 1rem;
+}
+.videos a:hover {
+  text-decoration: underline;
+}
+
+/* Old Video Frame w/o image borders. 
+  .video-container {
+    align-self: end;
+    justify-self: center;
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 30px 40px;
+    margin-bottom: 0px;
+  }
+  .video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+  }*/

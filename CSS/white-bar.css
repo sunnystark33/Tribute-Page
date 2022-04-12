@@ -1,0 +1,17 @@
+.white-bar {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  color: #1d1d1f;
+  height: 44px;
+  text-align: center;
+}
+.white-bar a {
+  text-decoration: none;
+  color: #0071e3;
+}
+.white-bar a:hover {
+  text-decoration: underline;
+}
